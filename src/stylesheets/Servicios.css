@@ -1,0 +1,77 @@
+/* Tarjetas */
+
+.contenedor-cardImagenServicios {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 15%;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 300px;
+    
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    
+}
+.tituloCard {
+  font-size: 1rem;
+  text-align: center;
+  color: black;
+  padding: 5px;
+}
+
+
+.cardDescripcionServicios {
+  text-align: center;
+  margin: 2px 0px;
+  color: black;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.cardImagenServicios {
+  max-width: 180px;
+  height: 200px;
+}
+
+
+.contenedor-cardImagenServicios {
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.contenedor-cardImagenServicios img:hover{
+  transform: scale(1.1);
+}
+
+nav{
+  display: wrap;
+ 
+}
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }

@@ -1,0 +1,33 @@
+.navBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+
+.navLink {
+    display: inline-flex;
+    color: rgb(34, 35, 35);
+    justify-content: space-between;
+}
+
+.navLink {
+    cursor: pointer;
+    transition: all 0.3s;
+    
+  }
+  
+.navLink:hover {
+    transform: scale(1.2);
+  }
+
+
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 20px;
+}
+

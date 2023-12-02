@@ -1,0 +1,63 @@
+/* Tarjetas */
+
+.contenedor-cardImagenMakeup {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 20%;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 /9%);
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    height: 800px;
+    
+}
+
+.subtitulo {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    color: black;
+    
+}
+.tituloCard {
+  font-size: 1.2rem;
+  text-align: center;
+  color: black;
+}
+
+
+.cardDescripcionMakeup {
+  text-align: justify;
+  margin: 10px 0px;
+  color: black;
+}
+
+.cardImagenMakeup {
+  max-width: 100%;
+  height: 450px;
+}
+
+nav{
+  display: wrap;
+ 
+}
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }

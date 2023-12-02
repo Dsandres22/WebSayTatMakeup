@@ -1,0 +1,180 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box; /*formatear los estilos de la pagina*/
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
+  background-color: #fadffa;
+}
+
+.App {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Encabezado */
+header {
+    background-color: #f376e9;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0px;
+    height: 200px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+  max-width: 100%;
+  padding-left: 10px;
+  
+}
+
+.logo{
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.logo img:hover{
+  transform: scale(1.2);
+}
+
+.iconos {
+  padding-right: 10px;
+  height: 0px;
+  width: auto;
+}
+
+.usuario{
+  height: 40px;
+  width: auto;
+  padding: 5px;
+}
+
+.usuario{
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.usuario:hover{
+  transform: scale(1.2);
+}
+
+
+h1 {
+  margin: 0;
+  padding-left: 50px;
+  font-weight: 1000;
+}
+
+.instagram {
+  height: 40px;
+  width: auto;
+  padding: 5px;
+}
+
+.instagram{
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.instagram:hover{
+  transform: scale(1.2);
+}
+
+.bolsa-compras {
+  height: 40px;
+  width: auto;
+  padding: 5px;
+}
+
+.bolsa-compras{
+  cursor: pointer;
+  transition: all 0.3s;
+  
+}
+
+.bolsa-compras:hover{
+  transform: scale(1.2);
+}
+
+
+
+
+
+
+/* Body */
+
+
+
+
+
+
+/*
+.cards {
+    display: flex;
+    orientation: horizontal;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+
+
+/*
+h2 {
+    text-align: center;
+}
+
+
+
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+*/
+
+/* Pie de página */
+footer {
+    background-color: #f376e9;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+
